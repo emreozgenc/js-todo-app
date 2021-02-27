@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-head">Add a new task</div>
+            <div class="card-body">
+                <form id="todoForm" class="form">
+                    <input class="form-input" type="text" id="todoInput">
+                    <button class="form-button" type="submit">Add Task</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-head">Current tasks</div>
+            <div class="card-body">
+                <table>
+                    <thead>
+                        <th class="cell-1">Tasks</th>
+                        <th class="cell-2">Remove</th>
+                    </thead>
+                    <tbody id="todoList">
+
+                    </tbody>
+                </table>
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

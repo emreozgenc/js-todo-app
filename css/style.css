@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-input {
+    width : 75%;
+    padding: .5rem .5rem;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+}
+
+.form-input:focus {
+    outline: rgb(8, 143, 206) .1rem solid;
+}
+
+.form-button {
+    margin-left: 7%;
+    padding: .5rem .5rem;
+    width: 20%;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    border:none;
+    background: rgb(8, 143, 206);
+    color: white;
+}
+
+.card {
+    background: #eee;
+    margin-top: 3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: .3rem .3rem .5rem black;
+}
+
+.card-body {
+    padding: 2rem 1rem;
+}
+
+.card-head {
+    font-size: 1.5rem;
+    background: rgb(8, 143, 206);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem 1rem;
+    color: white;
+    border-bottom: white .3rem solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: .5rem;
+    border-bottom: rgb(8, 143, 206) .2rem solid;
+}
+
+.remove-button {
+    display: block;
+    width: 100%;
+    border: none;
+    color: white;
+    background:rgb(219, 37, 37);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+thead {
+    border-bottom: black .3rem solid;
+}
+
+.cell-1 {
+    width: 80%;
+    text-align: left;
+}
+
+.cell-2 {
+    width: 20%;
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html {
+        font-size: 8px;
+    }
+
+    .container {
+        width: 85%;
+    }
+}
